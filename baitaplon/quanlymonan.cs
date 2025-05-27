@@ -7,35 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace baitaplon
 {
-    public partial class Form1 : Form
+    public partial class quanlymonan : Form
+        
     {
-        public Form1()
+        
+        public quanlymonan()
         {
             InitializeComponent();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
+        
+       
 
-        }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btThem_Click(object sender, EventArgs e)
         {
             string TenMon = tbTenMon.Text;
-            decimal giaMon = numGia.Value;
+            double giaMon = Convert.ToDouble(numGia.Text);
             string NhomMon = cbbNhom.SelectedItem.ToString();
             string TrangThai = cbbTrangThai.SelectedItem.ToString();
             if (string.IsNullOrEmpty(TenMon) || giaMon <= 0 || string.IsNullOrEmpty(NhomMon) || string.IsNullOrEmpty(TrangThai))
@@ -44,15 +37,26 @@ namespace baitaplon
                 return;
             }
             dsMonAn.Rows.Add(TenMon, giaMon, NhomMon, TrangThai);
-
+            tbTenMon.Clear();
+            numGia.Clear();
+            cbbNhom.SelectedIndex = -1; // Đặt lại lựa chọn nhóm món
+            cbbTrangThai.SelectedIndex = -1; // Đặt lại lựa chọn trạng thái món
+            
         }
 
         private void btSua_Click(object sender, EventArgs e)
         {
             dsMonAn.CurrentRow.Cells[0].Value = tbTenMon.Text;
-            dsMonAn.CurrentRow.Cells[1].Value = numGia.Value;
+            dsMonAn.CurrentRow.Cells[1].Value = numGia.Text;
             dsMonAn.CurrentRow.Cells[2].Value = cbbNhom.SelectedItem.ToString();
             dsMonAn.CurrentRow.Cells[3].Value = cbbTrangThai.SelectedItem.ToString();
+            tbTenMon.Clear();
+            numGia.Clear();
+            cbbNhom.SelectedIndex = -1;
+            // Đặt lại lựa chọn nhóm món
+            cbbTrangThai.SelectedIndex = -1; // Đặt lại lựa chọn trạng thái món
+
+
         }
 
         private void btXoa_Click(object sender, EventArgs e)
@@ -69,7 +73,8 @@ namespace baitaplon
         {
             DataGridViewRow row = dsMonAn.CurrentRow;
             tbTenMon.Text = row.Cells[0].Value.ToString();
-            numGia.Value = Convert.ToDecimal(row.Cells[1].Value);
+            numGia.Text = row.Cells[1].Value.ToString();
+
             cbbNhom.SelectedItem = row.Cells[2].Value.ToString();
             cbbTrangThai.SelectedItem = row.Cells[3].Value.ToString();
 
@@ -107,6 +112,11 @@ namespace baitaplon
                 // Hiển thị tất cả các dòng
                 row.Visible = true;
             }
+        }
+
+        private void tbTenMon_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

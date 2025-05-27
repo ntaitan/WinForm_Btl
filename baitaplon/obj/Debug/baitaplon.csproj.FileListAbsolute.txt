@@ -2,9 +2,12 @@ D:\C#\BTL\baitaplon\baitaplon\bin\Debug\baitaplon.exe.config
 D:\C#\BTL\baitaplon\baitaplon\bin\Debug\baitaplon.exe
 D:\C#\BTL\baitaplon\baitaplon\bin\Debug\baitaplon.pdb
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.csproj.AssemblyReference.cache
-D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.Form1.resources
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.Properties.Resources.resources
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.csproj.GenerateResource.cache
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.csproj.CoreCompileInputs.cache
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.exe
 D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.pdb
+D:\C#\BTL\baitaplon\baitaplon\bin\Debug\Newtonsoft.Json.dll
+D:\C#\BTL\baitaplon\baitaplon\bin\Debug\Newtonsoft.Json.xml
+D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.csproj.Up2Date
+D:\C#\BTL\baitaplon\baitaplon\obj\Debug\baitaplon.quanlymonan.resources

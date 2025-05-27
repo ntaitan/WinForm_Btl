@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C#\\BTL\\baitaplon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|d:\\c#\\btl\\baitaplon\\baitaplon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|d:\\c#\\btl\\baitaplon\\baitaplon\\quanlymonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\quanlymonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|D:\\C#\\BTL\\baitaplon\\baitaplon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|d:\\c#\\btl\\baitaplon\\baitaplon\\quanlymonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C960CC21-92AE-462D-8E6D-07CB1F420CCA}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\quanlymonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\C#\\BTL\\baitaplon\\baitaplon\\Form1.cs",
-              "RelativeDocumentMoniker": "baitaplon\\Form1.cs",
-              "ToolTip": "D:\\C#\\BTL\\baitaplon\\baitaplon\\Form1.cs",
-              "RelativeToolTip": "baitaplon\\Form1.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAwwGoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "quanlymonan.cs",
+              "DocumentMoniker": "D:\\C#\\BTL\\baitaplon\\baitaplon\\quanlymonan.cs",
+              "RelativeDocumentMoniker": "baitaplon\\quanlymonan.cs",
+              "ToolTip": "D:\\C#\\BTL\\baitaplon\\baitaplon\\quanlymonan.cs*",
+              "RelativeToolTip": "baitaplon\\quanlymonan.cs*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswEsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T08:39:08.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BTL\\baitaplon\\baitaplon\\Form1.cs",
-              "RelativeDocumentMoniker": "baitaplon\\Form1.cs",
-              "ToolTip": "D:\\C#\\BTL\\baitaplon\\baitaplon\\Form1.cs [Design]",
-              "RelativeToolTip": "baitaplon\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "quanlymonan.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\BTL\\baitaplon\\baitaplon\\quanlymonan.cs",
+              "RelativeDocumentMoniker": "baitaplon\\quanlymonan.cs",
+              "ToolTip": "D:\\C#\\BTL\\baitaplon\\baitaplon\\quanlymonan.cs [Design]*",
+              "RelativeToolTip": "baitaplon\\quanlymonan.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T15:24:37.317Z",
               "EditorCaption": " [Design]"
